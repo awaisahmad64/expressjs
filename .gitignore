@@ -1,1 +1,40 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Build output directories
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory for testing
+coverage/
+
+# IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.tgz
+*.zip
+*.tar
