@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#btn-delete {
+  color: white;
+  background: red;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: rgb(243, 30, 30);
+}
+#btn-update{
+     border-color: rgb(143, 218, 31);
+     color:#ffffff;
+     background: greenyellow;
+     margin-left: 5px;
+}
